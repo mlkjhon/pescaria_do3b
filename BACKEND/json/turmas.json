@@ -1,0 +1,31 @@
+{
+    "simples": "Olá Mundo!",
+
+    "aluno": {
+        "nome": "Gustavo Henrique",
+        "idade": "16",
+        "curso": "DEV SIstemas"
+    },
+
+    "listaDeAlunos": [
+        {"nome": "Gustavo Henrique", "Idade": "16"},
+        {"nome": "Fulano", "Idade": "36"}
+    ],
+
+    "objetoDentrodeObjeto": {
+        "nome": "Gustavo Henrique",
+        "curso": {
+            "nome": "DEV SIstemas",
+            "periodo": "Integral"
+        }
+    },
+    
+    "listaDentroDeObjetoQueContemObjeto": {
+        "turma": "3º B DS",
+        "alunos": [
+            {"nome": "Gustavo Henrique", "Idade": "16"},
+            {"nome": "Fulano", "Idade": "36"}
+        ]
+    }
+
+}

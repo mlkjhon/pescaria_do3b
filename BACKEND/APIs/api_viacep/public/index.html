@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h2>Doguinho</h2>
+    <input type="text" id="id">
+    <button onclick="carregarImagem()">Mostrar</button>
+
+    <img id="dog" src="" alt="">
+
+    <script>
+        async function carregarImagem(){
+            const id = document.getElementById('id').value;
+
+            const resposta = await fetch(`/dog/${id}`);
+            const dados =  await resposta.json();
+
+            document.getElementById('dog').src = dados.url
+        }
+    </script>
+
+</body>
+</html>
