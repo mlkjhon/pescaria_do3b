@@ -7,6 +7,8 @@ const Perfil = () =>{
     return(
         <div>
             <h1>Perfil de {nome}</h1>
+            <img src='../pescaria.png' alt="" />
+            <br />
             <Link to='/'>Voltar pra pagina principal</Link>
         </div>
     )
